@@ -1,4 +1,4 @@
-﻿##  -Apple-Sales-Warranty-Analysis
+﻿##  Apple-Sales-Warranty-Analysis
  
 This project analyzes Apple store sales, products, categories, and warranty claims using a relational PostgreSQL database. It demonstrates how to run insightful queries to extract business intelligence such as best-selling products, growth trends, and claim behaviors.
 
@@ -265,3 +265,8 @@ Monthly running total of sales by store (last 4 years)?
     SELECT *
     FROM running_totals
     ORDER BY store_id, month;
+
+#  SCREENSHOT
+
+![Screenshot 2025-06-16 203504](https://github.com/user-attachments/assets/a84fc495-4110-42e2-84dc-f5df27320a2b)
+
